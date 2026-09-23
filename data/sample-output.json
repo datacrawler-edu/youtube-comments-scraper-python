@@ -1,0 +1,22 @@
+[
+  {
+    "videoId": "a1B2c3D4e5F",
+    "videoUrl": "https://www.youtube.com/watch?v=a1B2c3D4e5F",
+    "videoTitle": "Example public video",
+    "channel": "Example channel",
+    "commentId": "sample-comment-001",
+    "commentUrl": "https://www.youtube.com/watch?v=a1B2c3D4e5F&lc=sample-comment-001",
+    "text": "A clear example with useful steps.",
+    "author": "Example viewer",
+    "authorId": null,
+    "authorUrl": null,
+    "authorThumbnail": null,
+    "publishedAt": "2026-01-01T12:30:00Z",
+    "likeCount": 3,
+    "parentId": null,
+    "isReply": false,
+    "isPinned": false,
+    "isUploader": false,
+    "isVerified": null
+  }
+]

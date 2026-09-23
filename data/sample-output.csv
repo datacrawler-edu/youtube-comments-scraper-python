@@ -1,0 +1,2 @@
+videoId,videoUrl,videoTitle,channel,commentId,commentUrl,text,author,authorId,authorUrl,authorThumbnail,publishedAt,likeCount,parentId,isReply,isPinned,isUploader,isVerified
+a1B2c3D4e5F,https://www.youtube.com/watch?v=a1B2c3D4e5F,Example public video,Example channel,sample-comment-001,https://www.youtube.com/watch?v=a1B2c3D4e5F&lc=sample-comment-001,A clear example with useful steps.,Example viewer,,,,2026-01-01T12:30:00Z,3,,false,false,false,

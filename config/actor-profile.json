@@ -1,0 +1,148 @@
+{
+  "repository": {
+    "name": "youtube-comments-scraper-python",
+    "description": "Python, JavaScript and cURL examples for calling the YouTube Comments Scraper Actor API on Apify.",
+    "homepage": "https://apify.com/datascraperes/youtube-comments-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "YouTube Comments Scraper | Replies for Videos",
+    "id": "datascraperes/youtube-comments-scraper",
+    "storeUrl": "https://apify.com/datascraperes/youtube-comments-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~youtube-comments-scraper",
+    "description": "Call a hosted Apify Actor to collect public YouTube comments and replies from up to 10 video URLs or IDs, with up to 10,000 comments per video and a 100,000-comment run cap."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/youtube-comments-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "startUrls",
+      "inputLabel": "YouTube video URLs or IDs",
+      "inputSummary": "Enter up to 10 public YouTube video URLs or 11-character IDs, choose newest or top comments, and set a maximum of 10,000 comments per video, subject to a 100,000-comment run cap.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "YouTube comments scraper API",
+    "secondaryKeywords": [
+      "scrape YouTube comments with Python",
+      "Apify YouTube comments API",
+      "export YouTube comments to CSV",
+      "YouTube comments and replies JSON"
+    ],
+    "topics": [
+      "apify",
+      "apify-actor",
+      "api",
+      "javascript",
+      "python",
+      "web-scraping",
+      "youtube",
+      "youtube-comments",
+      "youtube-comments-scraper"
+    ],
+    "longTailIntents": [
+      "How to call a YouTube comments scraper API from Python",
+      "How to run YouTube comment extraction without code on Apify",
+      "How to export structured YouTube comments and replies to CSV"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/scrape_youtube_comments.py",
+      "examples/javascript/request.mjs",
+      "examples/curl-request.md"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per unique comment or reply saved to the Dataset; no separate Actor start event is configured.",
+    "unit": "one unique comment or reply saved to the Dataset",
+    "price": "$1.00 per 1,000 saved comments on the FREE tier; discounted tiers apply on eligible Apify plans"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/youtube-comments-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/youtube-comments-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/youtube-comments-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial public integration guide"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/youtube-comments-scraper-python",
+      "YouTube comments scraper API Python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/youtube-comments-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/youtube-comments-scraper?fpr=edudata"
+  }
+}
