@@ -1,3 +1,5 @@
+# YouTube Comments Scraper API Examples
+
 Use the **YouTube Comments Scraper API** to collect public YouTube comments and replies through Apify, then work with structured Dataset records in Python, JavaScript, cURL, or a spreadsheet. This repository is an integration guide for the hosted Actor; it does not contain the Actor's implementation.
 
 [Open the YouTube Comments Scraper on Apify](https://apify.com/datascraperes/youtube-comments-scraper?fpr=edudata)
